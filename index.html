@@ -1,1 +1,88 @@
-Un titre au pif 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Vêtements</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            width: 250px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product button {
+            background-color: #28a745;
+            border: none;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Boutique de Vêtements</h1>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="T-shirt">
+            <h2>T-shirt</h2>
+            <p>Prix: 20€</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Jeans">
+            <h2>Jeans</h2>
+            <p>Prix: 40€</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Veste">
+            <h2>Veste</h2>
+            <p>Prix: 60€</p>
+            <button>Acheter</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Boutique de Vêtements - Tous droits réservés
+    </footer>
+</body>
+</html>
